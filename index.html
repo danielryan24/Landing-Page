@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <h2>EduGrow</h2>
+      <h2><a href="https://skilvul.com">Beranda</a></h2>
       <nav>
         <ul>
           <li>Beranda</li>
@@ -36,10 +36,29 @@
       </section>
 
       <section id="companies">
-        <img src="./assets/Logos-Container.png" alt="logos" width="900" />
+        <img src="./assets/Logos-Container.png" alt="logos" width="1000" />
       </section>
 
-      <section id=""></section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <form>
+          <p>Name</p>
+          <input id="name" type="text" />
+          <p>City</p>
+          <input id="city" type="text" />
+          <p>Email</p>
+          <input id="email" type="email" />
+          <p>Zip Code</p>
+          <input id="zip-code" type="number" />
+          <br />
+          <div id="acc">
+            <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+            <input id="status" type="checkbox" />
+          </div>
+          <button id="submit-form" type="submit">Submit</button>
+          <div id="warning"></div>
+        </form>
+      </section>
     </main>
   </body>
   <script src="scripts.js"></script>

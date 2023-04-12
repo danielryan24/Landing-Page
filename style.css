@@ -20,6 +20,12 @@ header h2 {
   margin-left: 180px;
 }
 
+header h2 a {
+  text-decoration: none;
+  color: #3a5088;
+  font-size: 100%;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -78,11 +84,59 @@ header button {
 }
 
 #hero-img {
-  margin: 0px 300px 0px 0px;
+  margin: 0px 300px 20px 0px;
 }
 
 #companies {
   background-color: #3a5088;
   text-align: center;
   padding: 100px;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+form p {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 180px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+form input {
+  margin-left: 180px;
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #222222;
+}
+
+#acc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#acc label {
+  width: 100%;
+  margin-left: 180px;
+}
+
+#acc input {
+  margin-right: 400px;
+}
+
+form button {
+  width: 150px;
+  height: 35px;
+  color: #fafafb;
+  background-color: #3a5088;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 20px 180px;
 }
