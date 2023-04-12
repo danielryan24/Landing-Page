@@ -1,0 +1,88 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #fafafb;
+}
+
+header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafb;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+header h2 {
+  color: #3a5088;
+  margin-left: 180px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+  font-weight: bold;
+  color: #6b7580;
+}
+
+nav ul li:hover {
+  color: #222222;
+  cursor: pointer;
+}
+
+header button {
+  margin-right: 180px;
+  width: 150px;
+  height: 35px;
+  color: #fafafb;
+  background-color: #3a5088;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-greetings {
+  margin: 0px 0px 0px 300px;
+}
+
+#hero-greetings h1 {
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+#hero-greetings p {
+  margin-top: -10px;
+  margin-right: 50px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+#hero-greetings button {
+  width: 150px;
+  height: 35px;
+  color: #fafafb;
+  background-color: #3a5088;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#hero-img {
+  margin: 0px 300px 0px 0px;
+}
+
+#companies {
+  background-color: #3a5088;
+  text-align: center;
+  padding: 100px;
+}
