@@ -35,7 +35,12 @@ nav ul {
   color: #6b7580;
 }
 
-nav ul li:hover {
+nav ul li a {
+  color: #6b7580;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
   color: #222222;
   cursor: pointer;
 }
@@ -119,15 +124,24 @@ form input {
   justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
-}
-
-#acc label {
-  width: 100%;
   margin-left: 180px;
 }
 
+#acc label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
 #acc input {
-  margin-right: 400px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  margin-left: 20px;
 }
 
 form button {
