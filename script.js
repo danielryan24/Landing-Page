@@ -22,3 +22,29 @@ function isNumber(str) {
   }
   return true;
 }
+
+function checkboxIsChecked() {
+  const checkbox = document.getElementById("status");
+  return checkbox.checked;
+}
+
+function validateFormData(formData) {
+  if (formData && !isNaN(formData.zipCode) && checkboxIsChecked(formData.status)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function submit(e) {
+  const formData = handleGetFormData();
+  if (validateFormData(formData)) {
+    document.getElementById("warning").innerHTML = "";
+
+    console.log("data berhasil ditambah");
+  } else {
+    document.getElementById("warning").innerHTML = "Periksa form anda sekali lagi";
+  }
+}
+
+document.getElementById("form").addEventListener("submit", submit);
