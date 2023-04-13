@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <h2><a href="https://skilvul.com">EduGrow</a></h2>
+      <h2><a id="link" href="https://skilvul.com">EduGrow</a></h2>
       <nav>
         <ul>
           <li><a href="#hero">Beranda</a></li>
@@ -25,7 +25,7 @@
           <h1>Buktikan Kamu Bisa</h1>
           <h1 style="color: #3a5088">#SelangkahdiDepan</h1>
           <h1>Bersama EduGrow</h1>
-          <p>Mulai belajar anti ribet. Berbagai macam jenis program pembelajaran dengan materi-materi terupdate serta berbagai macam Artikel menarik. Grow sekarang bersama EduGrow GRATIS!</p>
+          <p id="description">Mulai belajar anti ribet. Berbagai macam jenis program pembelajaran dengan materi-materi terupdate serta berbagai macam Artikel menarik. Grow sekarang bersama EduGrow GRATIS!</p>
           <button>Mulai Ikuti Kelas</button>
         </div>
 
@@ -57,20 +57,14 @@
 
       <section id="contact">
         <h1>Input Your Data</h1>
-        <form>
-          <p>Name</p>
+        <form id="form">
           <input id="name" type="text" placeholder=" Name" />
-          <p>City</p>
           <input id="city" type="text" placeholder=" City" />
-          <p>Email</p>
           <input id="email" type="email" placeholder=" Email" />
-          <p>Zip Code</p>
           <input id="zip-code" type="number" placeholder=" Zip Code" />
-          <br />
-          <div id="acc">
-            <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
-            <input id="status" type="checkbox" />
-          </div>
+          <input id="status" type="checkbox" />
+          <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+
           <button id="submit-form" type="submit">Submit</button>
           <div id="warning"></div>
         </form>
