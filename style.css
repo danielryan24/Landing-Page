@@ -167,9 +167,11 @@ form button {
 }
 
 #list ol {
+  list-style: none;
   letter-spacing: 3px;
   line-height: 2;
   font-size: 20px;
+  margin-left: -40px;
 }
 
 footer {
