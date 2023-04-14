@@ -167,7 +167,6 @@ form button {
 }
 
 #list ol {
-  list-style-type: "\2705";
   letter-spacing: 3px;
   line-height: 2;
   font-size: 20px;
